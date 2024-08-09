@@ -1,0 +1,1 @@
+//logica de home,login y galery
