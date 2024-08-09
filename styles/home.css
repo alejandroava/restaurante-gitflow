@@ -1,0 +1,12 @@
+
+
+body{
+    background:url(/restaurante-gitflow/imagenes/pexels-nadin-sh-78971847-21753108.jpg) no-repeat center/cover;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+}
