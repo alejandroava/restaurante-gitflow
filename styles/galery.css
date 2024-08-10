@@ -1,0 +1,59 @@
+
+
+
+section{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+   
+}
+
+
+section > :nth-child(1){
+
+    .imagen{
+        width: 200px;
+        height: 22vh;
+        border-radius: 20px;
+        background: url(/restaurante-gitflow/imagenes/pizzaHawayana.jpg) no-repeat center/cover;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+
+}
+
+
+section> :nth-child(2){
+    .segunda_imagen{
+        width: 200px;
+        height: 22vh;
+        border-radius: 20px;
+        background: url(/restaurante-gitflow/imagenes/pizzaPeperoni.jpg) no-repeat center/cover;
+    }
+
+    .segunda_description{
+        text-align: center;
+    }
+
+}
+
+
+section > :nth-child(3){
+
+    .tercera_imagen{
+        width: 200px;
+        height: 22vh;
+        border-radius: 20px;
+        background: url(/restaurante-gitflow/imagenes/pizzaranchera.jpg) no-repeat bottom/cover;
+    }
+
+    .tercera_description{
+        text-align: center;
+    }
+}
